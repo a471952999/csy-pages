@@ -1,6 +1,6 @@
 {
   "name": "csy-pages",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Awesome node modules.",
   "keywords": [
     "csy-pages",
@@ -14,12 +14,7 @@
     "lib",
     "bin"
   ],
-  "bin": "./bin/csy-pages.js",
-  "scripts": {
-    "lint": "standard --fix",
-    "test": "jest --coverage",
-    "prepare": "npm run lint && npm run test"
-  },
+  "bin": "./bin/csy-pages.js", 
   "renovate": {
     "extends": [
       "zce"
